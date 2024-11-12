@@ -1,0 +1,10 @@
+answer = input('Enter a month\'s abbrevation: ').capitalize()
+
+monthConversions = {
+    'Jan': 'January',
+    'Feb': 'Feburary',
+    'Mar': 'March',
+}
+
+print(monthConversions.get(answer, 'Not a valid key'))
+
