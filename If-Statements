@@ -1,0 +1,13 @@
+is_male = True
+is_tall = True
+
+if is_male:
+    if is_tall:
+        print("You are a tall male")
+    else:
+        print("You are a short male")
+else:
+    if is_tall:
+        print("You are tall and not male")
+    else:
+        print("You are neither male nor tall")
