@@ -1,6 +1,6 @@
 print('This a collection of the mini-projects I have made while learnig python')
 
-game = input('Please choose a project from the following list: (i) Guessing Game, (ii) A Calulator, and (iii) Month Conversions').lower()
+game = input('Please choose a project from the following list: (i) Guessing Game, (ii) A Calulator, and (iii) Month Conversions: ').lower()
 print(f'You have chosen {game}')
 
 def guessing_game():
