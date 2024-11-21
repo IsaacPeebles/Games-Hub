@@ -102,4 +102,4 @@ if game == 'iii' or game == 'month conversions':
     month_conversions()
 
 else:
-    print('Please enter a valid input.')
+    print('Thanks for playing the game!')
